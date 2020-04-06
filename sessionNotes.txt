@@ -1,0 +1,54 @@
+
+
+https://bit.ly/2w0nor8 : Attendance Link NgUnitTesting
+
+FrameworksUsed for Unit testing in Ng
+	Jasmine
+	Mocha
+Assertion Libraries
+	Jasmine
+	Chai
+	should.js
+	Expect
+Mocking Libraries
+	sinon.js
+	Testdouble.js
+	Jasmine
+Test Runners
+	Karma
+	Jest
+	Cypress
+
+
+
+
+	Three A's of Unit Testing
+		A ==> Arrange (usually an initial state) - 
+		Arrange all necessary preconditions and inputs
+
+		A ==> Act (usually change the state)
+		Act on the object or method under test
+	
+		A ==> Assert (Check for asserstion)
+		Assert that the expected results have occurred
+
+
+Why to use NO_ERRORS_SCHEMAS : it ignores the html elements, but should be used only when reqd.
+fixture.detectChanges() ==>The bindings in the html will be resolved by the detectChanges() method
+TestBed.configureTestingModule({}) will create a testing module. And in this module we can add
+declarations[], providers[] etc
+
+
+debugElement - is like a wrapper arround a DOM node like how a 
+		fixture is a wrapper arround a component
+
+
+
+
+
+
+
+
+
+
+
